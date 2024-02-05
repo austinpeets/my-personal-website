@@ -1,0 +1,31 @@
+header h1 {
+    flex: content;
+    text-align: center;
+    font-family: cursive;
+}
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    flex: content;
+    flex-wrap: nowrap;
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+.homeButton {
+    font-size: large;
+    font-family: cursive;
+}
+
+.aboutMeButton {
+    font-size: large;
+    font-family: cursive;
+}
+
+.portfolioButton {
+    font-size: large;
+    font-family: cursive;
+}
