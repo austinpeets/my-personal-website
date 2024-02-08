@@ -1,9 +1,14 @@
-h1 {
+.navbarTitle{
     flex: content;
-    text-align: center;
+    text-align: start;
     font-family: cursive;
     font-weight: bolder;
+    text-decoration: underline;
+    position: absolute;
+    top: -10px;
+    left: 70px
 }
+
 body {
     background-color: antiquewhite;
 }
@@ -11,29 +16,34 @@ body {
 .navbar {
     flex: content;
     flex-wrap: nowrap;
-    text-align: center;
-    background-color: aqua;
-
+    text-align: end;
+    background-color:burlywood;
+    margin: 0px 50px;
 }
 
 .homeButton {
     font-size: large;
     font-family: cursive;
+    background-color: blanchedalmond;
 }
 
 .aboutMeButton {
     font-size: large;
     font-family: cursive;
+    background-color: blanchedalmond;
 }
 
 .portfolioButton {
     font-size: large;
     font-family: cursive;
+    background-color: blanchedalmond;
 }
 
  #mssnTitle {
     text-align: center;
     font-size: xx-large;
+    text-decoration: underline;
+    font-family: cursive;
  }
 
 #mssnStmnt {
@@ -41,4 +51,64 @@ body {
     font-size: x-large;
     font-family: cursive;
     font-weight: bold;
+}
+
+#aboutDescript {
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.aboutMe {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+#workoutTitle{
+    text-decoration: underline;
+}
+
+#videoGameTitle {
+    text-decoration: underline;
+}
+
+#fatherTitle {
+    text-decoration: underline;
+}
+
+#myPortDescrip {
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+#groceryList {
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#groceryListDesc {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#secureVault {
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#secureVaultDesc {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bolder;
 }
