@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="navbarTitle">Austin Pitts</h1>
+        <button id="homeButton">
+            <a href="index.html">Home</a>
+        </button>
+
+        <button id="aboutMeButton">
+            <a href="aboutme.html">About Me</a>
+        </button>
+
+        <button id="portfolioButton">
+            <a href="portfolio.html">Portfolio</a>
+        </button>
+
+        <button id="contacts">
+            <a href="contacts.html">Contact Form</a>
+        </button>
+    </nav>
+    <header>
+        <h1>Please leave your contact information and a message!</h1>
+    </header>
+    <form action="success.html" method="get" id="form">
+        <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-field">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </div>
+
+        <div class="form-field">
+            <label for="textarea">Message</label>
+            <textarea id="textarea"></textarea>
+        </div>
+        <input type="button" class="submit" value="Submit" onclick="submitForm()">
+    </form>
+
+</body>
+<script src="javascript.js"></script>
+</html>

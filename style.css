@@ -1,42 +1,74 @@
-.navbarTitle{
-    flex: content;
-    text-align: start;
-    font-family: cursive;
-    font-weight: bolder;
-    text-decoration: underline;
-    position: absolute;
-    top: -10px;
-    left: 70px
-}
-
 body {
     background-color: antiquewhite;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .navbar {
-    flex: content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: nowrap;
-    text-align: end;
     background-color:burlywood;
-    margin: 0px 60px;
 }
 
-.homeButton {
+.navbar-buttons {
+    display: flex;
+}
+
+.navbar-buttons:hover {
+    background-color: antiquewhite;
+}
+
+#homeButton {
+    font-size: large;
+    font-family: cursive;
+    color: black;
+    text-decoration: none;
+    background-color: blanchedalmond;
+}
+
+#homeButton:hover {
+    background-color:brown;
+    
+}
+
+#aboutMeButton {
     font-size: large;
     font-family: cursive;
     background-color: blanchedalmond;
 }
 
-.aboutMeButton {
+#aboutMeButton:hover {
+    background-color: brown;
+}
+
+#portfolioButton {
     font-size: large;
     font-family: cursive;
     background-color: blanchedalmond;
 }
 
-.portfolioButton {
+#portfolioButton:hover {
+    background-color: brown;
+}
+
+#contacts {
     font-size: large;
     font-family: cursive;
     background-color: blanchedalmond;
+}
+
+#contacts:hover {
+    background-color: brown;
+}
+
+.form-field {
+    font-size: 2em;
+    padding: 10px;
 }
 
  #mssnTitle {
@@ -112,3 +144,4 @@ body {
     font-size: larger;
     font-weight: bolder;
 }
+
