@@ -1,4 +1,4 @@
-# Personal WEbsite
+# Personal Website
 
 ## Description
 This is the respository for my pesronal website I'm building while attending FullStack academy and constantly improving the more I learn.
